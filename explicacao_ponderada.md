@@ -216,3 +216,5 @@ selector_xgb = SelectKBest()
 xgb_optimizer = XGBoostOptimizer(param_grid_xgb, selector_xgb, X, y_log)
 xgb_optimizer.optimize_model()
 ```
+# Submissão do desafio Kaggle
+![Alt text](image.png)
